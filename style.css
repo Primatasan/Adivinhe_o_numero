@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sono:wght@200;400;700&display=swap');
+
+:root{
+    --primary-font:'Press Start 2P', cursive;
+    --secundary-font:'Sono', sans-serif;
+    --primary-color:rgb(255,131,231);
+    --secundary-color:rgba(145,232,250,1);
+    --contrast-color:#2c2c2c;
+    --contrastbase-color:#fff;
+    --shadow-box:5px 5px 12px -3px rgba(0,0,0,0.39);
+}
+
+html{
+    height: 100dvh;
+    background:var(--primary-color);
+    background: -moz-linear-gradient(48deg, var(--primary-color) 0%, var(--secundary-color) 100%);
+    background: -webkit-linear-gradient(48deg, var(--primary-color) 0%, var(--secundary-color) 100%);
+    background: linear-gradient(48deg, var(--primary-color) 0%, var(--secundary-color) 100%);
+}
+
+body{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: var(--primary-font);
+    color: var(--contrast-color);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+header{
+    margin: 5dvh 0 10dvh;
+}
+
+main{
+    margin: 25dvh 0;
+}
+
+.regra{
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.sorteio{
+    font-size: 2em;
+    margin: 2em;
+}
+
+.numeros{
+    width: 40px;
+    padding: 5px;
+}
+
+.botaobox{
+    margin: 0.5em 0 2em;
+}
+
+.botaobox > input, .botaobox > button{
+    font-family: var(--primary-font);
+    padding: 0.3em 1em;
+    font-size: 2em;
+    border: solid 3px var(--contrast-color);
+    background: transparent;
+    color:var(--contrast-color);
+    border-radius: 0.3em;
+}
+
+.botaobox > input:hover, .botaobox > button:hover{
+    border: solid 3px var(--contrastbase-color);
+    color:var(--contrastbase-color);
+}
+
+h3, span, p{
+    font-family: var(--secundary-font);
+    color: var(--contrast-color);
+}
+
+h3{
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.caixa{
+    width: fit-content;
+    margin: 1em auto;
+    padding: 0.8em;
+    border-radius: 5px;
+    border: solid 1px var(--contrast-color);
+    font-size: 2em;
+    background-color: var(--contrastbase-color);
+    color: var(--contrast-color);
+    -webkit-box-shadow: var(--shadow-box);
+    -moz-box-shadow: var(--shadow-box);
+    box-shadow:var(--shadow-box);
+}
+
+.mensagem{
+    font-size: 1.4em;
+
+}
+
+.sumir{
+    display: none;
+}
+
+.margem{
+    margin-top: 1em;
+}
+
+.margembaixa{
+    margin-bottom: 1em;
+}
+
+.margembaixagrande{
+    margin-bottom: 4em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p{
+    font-family: var(--secundary-font);
+    font-size: 0.8em;
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--contrast-color)
+}
+
+a:hover{
+    color: var(--contrastbase-color)
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/sorteio.js" async></script>
+    <script src="./js/reconhecimentoDeVoz.js" async></script>
+    <script src="./js/validacao.js" async></script>
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+
+    <header>
+        <h1>Adivinhe o número sorteado</h1>
+    </header>
+
+    <main>
+        <form data-form>
+            <div data-areajogo>
+                <h2 class="regra">Escolha os números entre
+                    <br>os quais vamos realizar o sorteio</h2>
+                <p class="sorteio">O número sorteado estará entre 
+                <input type="number" name="menornumero" id="menornumero" class="numeros" placeholder="0">
+                e 
+                <input type="number" name="maiornumero" id="maiornumero" class="numeros" placeholder="100">
+                </p>
+                <div class="botaobox">
+                    <input class="botao" type="submit" value="Jogar">
+                </div>
+            </div>
+            <div data-mensageminicio></div>
+        </form>
+    
+        <div data-chute class="mensagem">
+        </div>
+
+    </main>
+
+    <footer>
+
+            <p>Diga "sair" para finalizar o jogo.</p>
+
+            <p>Design e Desenvolvimento por Carlos Sammartin 
+                <a href="https://github.com/Primatasan" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                <a href="https://www.behance.net/carlosmsdesign" target="_blank"><i class="fa-brands fa-behance"></i></a> 
+            </p>
+    
+        
+    </footer>
+
+</body>
+</html>
