@@ -1,12 +1,12 @@
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 const selecao = document.querySelector('[data-chute]');
-const formulario = document.querySelector('[data-form]');
+const botaoInciar = document.querySelector('[data-form]');
 
 
 const recognition = new SpeechRecognition();
 recognition.lang = 'pt-Br';
 
-formulario.addEventListener('submit', () =>{
+botaoInciar.addEventListener('submit', () =>{
     recognition.start();
     recognition.addEventListener('result', onSpeak);
 })
