@@ -19,10 +19,7 @@
 
 ---
 
-<br>
-
 ## Sobre o jogo
-<br>
 <br>
 
 Este projeto foi desenvolvido para estudar o uso da [Api Web Speech](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API). Para isso, desenvolvemos um 'jogo de advinhação, onde usamos a voz para 'chutar' o número que foi sorteado. Iniciamos o jogo selecionando o 'range' numerico de onde vamos realizar o sorteio:
@@ -104,11 +101,8 @@ A qualquer momento o jogador pode encerrar o jogo e recarregar a tela inicial fa
 [Voltar para o topo](#jogo-de-adivinhação-por-comando-de-voz)
 
 ---
-<br>
 
 ## Web Speech API
-<br>
-<br>
 
 Apesar de possuir uma implementação simples, existem algumas particularidades encontradas na implementação da API de reconhecimento de voz que merecem a mensão.
 
@@ -152,6 +146,7 @@ function onSpeak(e){
 
 };
 ```
+[Voltar para o topo](#jogo-de-adivinhação-por-comando-de-voz)
 ---
 
 Desenvolvido por Carlos Sammartin 
