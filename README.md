@@ -146,7 +146,9 @@ function onSpeak(e){
 
 };
 ```
+
 [Voltar para o topo](#jogo-de-adivinhação-por-comando-de-voz)
+
 ---
 
 Desenvolvido por Carlos Sammartin 
